@@ -1,0 +1,105 @@
+body{
+  background-color: #C1EFFF;
+  background-color:hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h2{
+  text-align: center;
+  font-weight: 900;
+  color: #484848;
+  padding-top: 20px;
+}
+
+.main-box{
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  left: 400px;
+  top:80px;
+  width: 450px;
+  height: 625px;
+}
+
+.small-box{
+  text-align: center;
+  background-color:#C1EFFF;
+  background-color: hsl(225, 100%, 98%);
+  width: 70%;
+  margin: auto;
+  border-radius: 15px;
+  height: 80px;
+
+}
+
+.hero{
+  border-radius: 15px 15px 0 0;
+}
+
+.description{
+  text-align: center;
+  font-weight: 500;
+  width: 60%;
+  margin: auto;
+  color: #909090;
+  font-size: 1rem;
+}
+
+.music-icon{
+  width: 40px;
+  float: left;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.plan-header{
+  font-weight: 900;
+  font-size: 1rem;
+  color: #484848;
+  margin-bottom: 0px;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.plan-cost{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #909090;
+  margin-top: 5px;
+  width: 200px;
+}
+.change{
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Red Hat Display;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3366CC;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 80px;
+  padding-right: 80px;
+  left: 75px;
+  top: 40px;
+}
+
+.btn:hover {
+  background: #848c91;
+  text-decoration: none;
+}
+.cancel-link{
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  right: 125px;
+  font-weight: 700;
+  color: #909090;
+}
